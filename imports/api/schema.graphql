@@ -1,0 +1,11 @@
+type Query {
+  recommendations: [Recommendation]
+}
+
+type Recommendation {
+  name: String
+  job: String
+  avatar: String
+  date: String
+  text: String
+}

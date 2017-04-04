@@ -1,0 +1,2 @@
+import './graphql';
+import './ssr';

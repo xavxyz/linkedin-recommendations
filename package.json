@@ -1,0 +1,36 @@
+{
+  "name": "linkedin-recommendations",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "lint": "eslint --quiet --ext .js .",
+    "prettier": "prettier --write \"imports/**/*.js\" \"main/**/*.js\" --single-quote=true --trailing-comma=es5 --print-width=100",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "apollo-client": "^1.0.1",
+    "babel-runtime": "^6.23.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "graphql": "^0.9.2",
+    "graphql-server-express": "^0.6.0",
+    "graphql-tools": "^0.11.0",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.3.1",
+    "react-apollo": "^1.0.0",
+    "react-dom": "^15.3.1",
+    "recompose": "^0.22.0",
+    "styled-components": "^1.4.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.17.1",
+    "eslint-import-resolver-meteor": "^0.3.3",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-meteor": "4.0.0",
+    "eslint-plugin-no-unused-vars-rest": "^1.0.4",
+    "eslint-plugin-prettier": "^2.0.1",
+    "eslint-plugin-react": "^6.10.0",
+    "prettier": "^0.20.0"
+  }
+}
