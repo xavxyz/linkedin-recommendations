@@ -17,4 +17,13 @@ This little app is meant to be part of my new personal website, demonstrating wh
 
 ### Initial design
 Built from this sketch:
+
 ![sketch](https://d3uepj124s5rcx.cloudfront.net/items/1V0F2u0u091F1j1k1I1N/original%20draft.png?v=cbf9965d)
+
+### Note about Linkedin API :(
+The goal of this app is to retrieve received recommendations. Linkedin API provides a [selection of member profile fields](https://developer.linkedin.com/docs/fields) available to ["Apply with LinkedIn" developers](https://developer.linkedin.com/partner-programs/apply).
+
+-> I'm currently not part of this program (I applied). [Techcrunch article about this restriction](https://techcrunch.com/2015/02/12/linkedin-battens-down-the-hatches-on-api-use-limiting-full-access-to-partners/)
+
+I'm waiting (arf) a response from  the Linkedin Business Dev team:
+> Our Business Development team will review all applications and we will endeavor to respond to you within 15 days.
