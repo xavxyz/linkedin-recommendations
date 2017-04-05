@@ -5,7 +5,9 @@
     "start": "meteor run",
     "lint": "eslint --quiet --ext .js .",
     "prettier": "prettier --write \"imports/**/*.js\" \"main/**/*.js\" --single-quote=true --trailing-comma=es5 --print-width=100",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "apollo-client": "^1.0.1",
@@ -19,10 +21,12 @@
     "react": "^15.3.1",
     "react-apollo": "^1.0.0",
     "react-dom": "^15.3.1",
+    "recharts": "^0.22.0",
     "recompose": "^0.22.0",
     "styled-components": "^1.4.4"
   },
   "devDependencies": {
+    "@kadira/storybook": "^2.0.0",
     "babel-eslint": "^6.1.2",
     "eslint": "^3.17.1",
     "eslint-import-resolver-meteor": "^0.3.3",

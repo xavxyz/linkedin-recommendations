@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const App = () => <Wrapper>Yay!</Wrapper>;
+const App = () => <AppWrapper>Yay!</AppWrapper>;
 
-const Wrapper = styled.div`
+export const AppWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
