@@ -1,9 +1,9 @@
 const mocks = {
   Recommendation: () => ({
+    _id: 'foo-1',
     name: 'Aurélien Basille',
     job: 'Freelance dev MeteorJS / architecte Web',
     avatar: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAh3AAAAJDNkNTFiMTIzLWYwOWEtNDIzNi1iNDNjLWFkN2NiYWJhMDc4MA.jpg',
-    date: '4/1/16',
     text: `
       Xavier is an excellent MeteorJS developer supported by an entrepreneur mindset. He remains always watchful on the legitimacy of a functional evolution compared to business benefits. This is extremely useful and effective during the design of a MVP, for example.
 
@@ -11,6 +11,67 @@ const mocks = {
 
       I appeal to him on precise and high-level technical points technical which I would not entrust to other freelances.
     `,
+  }),
+  Query: () => ({
+    recommendations: [
+      {
+        _id: 'foo-1',
+        name: 'Aurélien Basille',
+        job: 'Freelance dev MeteorJS / architecte Web',
+        avatar: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAh3AAAAJDNkNTFiMTIzLWYwOWEtNDIzNi1iNDNjLWFkN2NiYWJhMDc4MA.jpg',
+        text: `
+        Xavier is an excellent MeteorJS developer supported by an entrepreneur mindset. He remains always watchful on the legitimacy of a functional evolution compared to business benefits. This is extremely useful and effective during the design of a MVP, for example.
+
+        His interpersonal skills, its seriousness and its rigor allowed us to establish very quickly a sustainable relationship of trust.
+
+        I appeal to him on precise and high-level technical points technical which I would not entrust to other freelances.
+      `,
+      },
+      {
+        _id: 'foo-2',
+        name: 'Todd Dunning',
+        job: 'Senior UI/UX',
+        avatar: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/035/23d/05ba7de.jpg',
+        text: `Use Xavier if you want your projects completed in a businesslike fashion. He goes way beyond what you ask for by thinking beyond the code and ensuring your product works together everywhere.
+
+        He analyzes every requirement to think of ways to make it work better for the user and the owner. When I have asked for a feature, he gives me 3 because he has thought of dependencies and variables I did not.
+
+        He spends much more time thinking about your product than other developers and puts in the time that is needed to make it all fit together. In addition he is a founding contributor to Nova, Meteor's flagship platform. He knows Meteor over and under and you can't find anybody better.
+      `,
+      },
+      {
+        _id: 'foo-2',
+        name: 'Dominic Tracey',
+        job: 'www.rugby.net',
+        avatar: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAd7AAAAJGYzMDVlM2Y4LTg0ZmEtNGQ3OC05NWFlLWVkNjRiMDVhZGVkOQ.jpg',
+        text: `Xavier is an incredibly talented developer, as well as being exceptionally organized, a strong communicator and very forward-thinking. We worked with him on customizations for the Telescope platform and he delivered amazing value given his depth of knowledge of react, redux, ES6/7, graphql, apollo, SASS/CSS and the full stack development and open source paradigm. 10/10 would recommend!
+      `,
+      },
+      {
+        _id: 'foo-4',
+        name: 'Chris De Rouck',
+        job: 'CTO at IDRONECT',
+        avatar: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAaOAAAAJDNlMjRmNTU4LTNkZTktNGIzNC1iODc1LWYyMjRkNDVmYTA5Mw.jpg',
+        text: `Xavier has a very great attitude as a (freelance) developer. He always wants to improve his skillset to be more valuable to his clients and to be able to deliver the best results. When we discuss the next features/assignment we would like Xavier to deliver he actively thinks along with us which helps us to decide how to tackle possible problems. Having spend some time as a startup coach Xavier also has a great feeling about what you need to do, to get your stuff working in a changing environment. On top of that Xavier is just a very nice person to work with!
+      `,
+      },
+      {
+        _id: 'foo-5',
+        name: 'Aplogan Roger-Cyr',
+        job: 'Directeur-fondateur chez Tipsler',
+        avatar: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAUQAAAAJGVkZDk4YTQyLTM3MGMtNDI2YS05NTFlLWU2MjQxOGIzMTQyZA.jpg',
+        text: `Xavier has developed a functional product corresponding to my needs and those of my customers, allowing me to test my assumptions in front of them really quickly! I enjoyed working with him, good mindset!
+      `,
+      },
+      {
+        _id: 'foo-6',
+        name: 'Maxime Pico',
+        job: 'Managing Director at Startup42',
+        avatar: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAARVAAAAJGI2MDRhNjBmLWFmM2QtNDk5Yi1iNjhiLWY1NTM1MjYwODcwZQ.jpg',
+        text: `Resourceful and energetic, Xavier knows how to drive a group in the right direction. His passion for choosing the right tools, setting them up, and teaching people how to use them made him a good fit for the startups he worked with and for our team. He has the perfect skills to efficiently bootstrap any project!
+      `,
+      },
+    ],
   }),
 };
 

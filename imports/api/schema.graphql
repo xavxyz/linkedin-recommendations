@@ -3,6 +3,7 @@ type Query {
 }
 
 type Recommendation {
+  _id: String
   name: String
   job: String
   avatar: String
