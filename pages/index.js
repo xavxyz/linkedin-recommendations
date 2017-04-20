@@ -1,12 +1,15 @@
 import styled from 'styled-components';
-import '../styles';
-import Header from '../components/Header';
+import Wheel from '../components/Wheel';
+import recommendations from '../assets/recommendations';
 
 const AppWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 `;
 
-export default () => <AppWrapper><Header animationCompleted /></AppWrapper>;
+export default () => (
+  <AppWrapper>
+    <Wheel recommendations={recommendations} />
+  </AppWrapper>
+);
