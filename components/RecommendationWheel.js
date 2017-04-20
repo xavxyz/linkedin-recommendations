@@ -9,7 +9,7 @@ const RecommendationWheel = ({ data }) => {
   }));
 
   return (
-    <ResponsiveContainer width="50%" height="50%">
+    <ResponsiveContainer width="100%" height="100%">
       <PieChart>
         <Pie
           data={chartCompatibleData}

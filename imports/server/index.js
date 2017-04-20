@@ -1,2 +1,0 @@
-import './graphql';
-import './ssr';
